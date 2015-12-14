@@ -1,0 +1,10 @@
+C:\Users\Nadeem\Documents\Visual Studio 2015\Projects\Syncify\Syncify GUI\bin\Debug\Syncify GUI.exe.config
+C:\Users\Nadeem\Documents\Visual Studio 2015\Projects\Syncify\Syncify GUI\bin\Debug\Syncify GUI.exe
+C:\Users\Nadeem\Documents\Visual Studio 2015\Projects\Syncify\Syncify GUI\bin\Debug\Syncify GUI.pdb
+C:\Users\Nadeem\Documents\Visual Studio 2015\Projects\Syncify\Syncify GUI\obj\Debug\Syncify GUI.csprojResolveAssemblyReference.cache
+C:\Users\Nadeem\Documents\Visual Studio 2015\Projects\Syncify\Syncify GUI\obj\Debug\Syncify_GUI.Form1.resources
+C:\Users\Nadeem\Documents\Visual Studio 2015\Projects\Syncify\Syncify GUI\obj\Debug\Syncify_GUI.Properties.Resources.resources
+C:\Users\Nadeem\Documents\Visual Studio 2015\Projects\Syncify\Syncify GUI\obj\Debug\Syncify GUI.csproj.GenerateResource.Cache
+C:\Users\Nadeem\Documents\Visual Studio 2015\Projects\Syncify\Syncify GUI\obj\Debug\Syncify GUI.exe
+C:\Users\Nadeem\Documents\Visual Studio 2015\Projects\Syncify\Syncify GUI\obj\Debug\Syncify GUI.pdb
+C:\Users\Nadeem\Documents\Visual Studio 2015\Projects\Syncify\Syncify GUI\obj\Debug\Syncify_GUI.About.resources

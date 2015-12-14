@@ -11,7 +11,7 @@ namespace Syncify
 {
     class Program
     {
-        const int SERVER_PORT = 42069;
+        const int SERVER_PORT = 40796;
 
         static SpotifyLocalAPI spotify = new SpotifyLocalAPI();
         static WebSocket client;
@@ -59,7 +59,7 @@ namespace Syncify
                     server = new WebSocketServer(SERVER_PORT);
                     server.AddWebSocketService<SyncifyWebSocket>("/syncify");
                     server.Start();
-                    Console.WriteLine("Server listening on port " + SERVER_PORT);
+                    Console.WriteLine(currentTime() + " Server listening on port " + SERVER_PORT);
                     break;
                 }
                 else if (key == ConsoleKey.C)
@@ -75,8 +75,9 @@ namespace Syncify
                     {
                         client.Connect();
                     }
-                    catch(Exception e)
+                    catch(Exception)
                     {
+                        
                         // supress connection errors
                     }
                     
@@ -131,12 +132,12 @@ namespace Syncify
         {
             if (e.Playing)
             {
-                Console.WriteLine("SENDING RESUME SIGNAL TO CLIENTS");
+                Console.WriteLine(currentTime() + " SENDING RESUME SIGNAL TO CLIENTS");
                 server.WebSocketServices.Broadcast("PLAY");
             }
             else
             {
-                Console.WriteLine("SENDING PAUSE SIGNAL TO CLIENTS");
+                Console.WriteLine(currentTime() + " SENDING PAUSE SIGNAL TO CLIENTS");
                 server.WebSocketServices.Broadcast("PAUSE");
             }
                 
@@ -145,9 +146,9 @@ namespace Syncify
         private static void Spotify_OnTrackChange(TrackChangeEventArgs e)
         {
             var track = e.NewTrack.TrackResource;
-            Console.WriteLine("Track changed: " + track.Name + " by " + track.Name);
+            Console.WriteLine("Track changed: " + track.Name + " by " + e.NewTrack.ArtistResource.Name);
             server.WebSocketServices.Broadcast(track.Uri);
-            Console.WriteLine("SENDING URI TO CLIENTS: " + track.Uri);
+            Console.WriteLine(currentTime() + " SENDING URI TO CLIENTS: " + track.Uri);
         }
 
         private static void Spotify_OnTrackTimeChange(TrackTimeChangeEventArgs e)
@@ -196,6 +197,11 @@ namespace Syncify
             return track.TrackResource.Uri;
         }
 
+        static String currentTime()
+        {
+            return "|" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "|";
+        }
+
         /// <summary>
         /// Seeks to the specified time,
         /// eg seek("1:04")
@@ -210,6 +216,12 @@ namespace Syncify
 
         static void Main(string[] args)
         {
+
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Clear();
+
+            Console.CursorSize = 15;
             Console.WriteLine("******************************");
             Console.WriteLine("SYNCIFY 0.01 alpha - WIP");
             Console.WriteLine("Created by Nima158");

@@ -12,7 +12,8 @@ namespace Syncify
     {
         protected override void OnOpen()
         {
-            base.OnOpen();
+            Console.WriteLine("Client as connected.");
+            //base.OnOpen();
         }
 
         protected override void OnClose(CloseEventArgs e)

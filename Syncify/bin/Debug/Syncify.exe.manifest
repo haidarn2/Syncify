@@ -67,14 +67,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Syncify.exe" size="36784">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Syncify.exe" size="37296">
       <assemblyIdentity name="Syncify" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>d2fxFHfL3/+B4g1WE4Em9pE0wgT13eGKI1xd/CMix/8=</dsig:DigestValue>
+        <dsig:DigestValue>Asqq4Do6qqRXgRJEBDAv16q9S+F9K8dfNll/FV+XQGQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
