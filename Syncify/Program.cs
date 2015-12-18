@@ -9,7 +9,7 @@ using WebSocketSharp.Server;
 
 namespace Syncify
 {
-    class Program
+    static class Program
     {
         const int SERVER_PORT = 40796;
 

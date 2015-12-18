@@ -115,5 +115,15 @@ namespace Syncify_GUI
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void link_deviantart_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://obinoobie.deviantart.com/art/Spotify-icon-123672875");
+        }
     }
 }

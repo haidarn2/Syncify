@@ -89,6 +89,26 @@ namespace Syncify_GUI.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap spotify_icon_by_obinoobie {
+            get {
+                object obj = ResourceManager.GetObject("spotify_icon_by_obinoobie", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap syncify_logo {
+            get {
+                object obj = ResourceManager.GetObject("syncify_logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to v0.01a.
         /// </summary>
         internal static string version {

@@ -127,6 +127,12 @@
   <data name="gotham_bold_font" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ufonts.com_gotham-bold.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="spotify_icon_by_obinoobie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spotify_icon_by_obinoobie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="syncify_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\syncify_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="version" xml:space="preserve">
     <value>v0.01a</value>
   </data>
