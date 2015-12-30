@@ -7,6 +7,15 @@
 A C# Windows application that lets you DJ by syncing your spotify with your friends in realtime.
 Syncify uses a P2P websocket implementation for hosting a session and connecting to existing sessions.
 
+### So what exactly is being synced?
+
+Currently the following features are synced:
+
+* Play/Pause status
+* Current track
+* Track changes
+* Changing seek time within a track
+
 ### Usage
 
 1. Ensure Spotify is running in the background.
