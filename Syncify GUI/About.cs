@@ -16,6 +16,11 @@ namespace Syncify_GUI
             InitializeComponent();
         }
 
+        private void About_Load(object sender, EventArgs e)
+        {
+            textBox_license.Select(0, 0);
+        }
+
         #region Assembly Attribute Accessors
 
         public string AssemblyTitle
@@ -125,5 +130,7 @@ namespace Syncify_GUI
         {
             System.Diagnostics.Process.Start("http://obinoobie.deviantart.com/art/Spotify-icon-123672875");
         }
+
+        
     }
 }
