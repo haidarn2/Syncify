@@ -1,0 +1,19 @@
+C:\Users\Nadeem\Documents\Visual Studio 2015\Projects\Syncify\Syncify GUI\bin\Debug\Syncify GUI.exe.config
+C:\Users\Nadeem\Documents\Visual Studio 2015\Projects\Syncify\Syncify GUI\bin\Debug\Syncify GUI.exe
+C:\Users\Nadeem\Documents\Visual Studio 2015\Projects\Syncify\Syncify GUI\bin\Debug\Syncify GUI.pdb
+C:\Users\Nadeem\Documents\Visual Studio 2015\Projects\Syncify\Syncify GUI\obj\Debug\Syncify GUI.csprojResolveAssemblyReference.cache
+C:\Users\Nadeem\Documents\Visual Studio 2015\Projects\Syncify\Syncify GUI\obj\Debug\Syncify_GUI.Properties.Resources.resources
+C:\Users\Nadeem\Documents\Visual Studio 2015\Projects\Syncify\Syncify GUI\obj\Debug\Syncify GUI.csproj.GenerateResource.Cache
+C:\Users\Nadeem\Documents\Visual Studio 2015\Projects\Syncify\Syncify GUI\obj\Debug\Syncify GUI.exe
+C:\Users\Nadeem\Documents\Visual Studio 2015\Projects\Syncify\Syncify GUI\obj\Debug\Syncify GUI.pdb
+C:\Users\Nadeem\Documents\Visual Studio 2015\Projects\Syncify\Syncify GUI\obj\Debug\Syncify_GUI.About.resources
+C:\Users\Nadeem\Documents\Visual Studio 2015\Projects\Syncify\Syncify GUI\obj\Debug\Syncify_GUI.MainMenu.resources
+C:\Users\Nadeem\Documents\Visual Studio 2015\Projects\Syncify\Syncify GUI\obj\Debug\Syncify_GUI.ConnectionMenu.resources
+C:\Users\Nadeem\Documents\Visual Studio 2015\Projects\Syncify\Syncify GUI\bin\Debug\SpotifyAPI.dll
+C:\Users\Nadeem\Documents\Visual Studio 2015\Projects\Syncify\Syncify GUI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Nadeem\Documents\Visual Studio 2015\Projects\Syncify\Syncify GUI\bin\Debug\SpotifyAPI.pdb
+C:\Users\Nadeem\Documents\Visual Studio 2015\Projects\Syncify\Syncify GUI\bin\Debug\SpotifyAPI.xml
+C:\Users\Nadeem\Documents\Visual Studio 2015\Projects\Syncify\Syncify GUI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Nadeem\Documents\Visual Studio 2015\Projects\Syncify\Syncify GUI\bin\Debug\websocket-sharp.dll
+C:\Users\Nadeem\Documents\Visual Studio 2015\Projects\Syncify\Syncify GUI\bin\Debug\websocket-sharp.pdb
+C:\Users\Nadeem\Documents\Visual Studio 2015\Projects\Syncify\Syncify GUI\bin\Debug\IPAddressControlLib.dll
